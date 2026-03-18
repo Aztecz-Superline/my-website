@@ -1,0 +1,44 @@
+ /* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Background & teks utama */
+body {
+    background-color: #0a0a0a;
+    color: #ffffff;
+}
+
+/* Warna aksen */
+.text-accent {
+    color: #ff4d4d;
+}
+
+.bg-accent {
+    background-color: #ff4d4d;
+}
+
+.border-accent {
+    border-color: #ff4d4d;
+}
+
+/* Hover link */
+.hover-accent:hover {
+    color: #ff4d4d;
+    transition: 0.3s;
+}
+
+/* Gaya khusus untuk input form */
+input,
+textarea {
+    background-color: #1a1a1a !important;
+    border: 1px solid #333 !important;
+    color: #ffffff !important;
+}
+
+/* Fokus input */
+input:focus,
+textarea:focus {
+    border-color: #ff4d4d !important;
+    outline: none;
+}
